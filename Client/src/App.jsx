@@ -3,6 +3,7 @@ import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import PageRouter from "./pages/PageRouter";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
+      <PageRouter/>
     </BrowserRouter>
   );
 }

@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <header className="navbar-wrapper">
       <nav className="navbar">
-        <div className="logo">MyApp</div>
+        <div className="logo">Fictional-Dollop</div>
 
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>

@@ -48,3 +48,9 @@
   border-radius: 6px;
   cursor: pointer;
 }
+.searchbar{
+  border-radius: 10px;
+  height: 35px;
+  padding: 5px;
+  width: 197px;
+}
